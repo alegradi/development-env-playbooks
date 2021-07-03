@@ -1,0 +1,10 @@
+---
+
+# Running roles against localhost
+- hosts: localhost
+  gather_facts: true
+  tags: localhost
+  vars:
+    docker_ansible_docker_user: adam
+  roles:
+    - docker-ansible

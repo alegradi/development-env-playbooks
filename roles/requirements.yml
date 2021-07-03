@@ -1,0 +1,6 @@
+---
+
+  # Docker role
+- src: git@github.com:alegradi/docker-ansible.git
+  scm: git
+  version: "main"  ## because github reasons?
